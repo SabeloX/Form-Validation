@@ -13,15 +13,15 @@
       <div class='header'>
         <h2>Register Account</h2>
       </div>
-      <form class='form'>
-        <div class='form-control success'>
+      <form class='form' id='form'>
+        <div class='form-control'>
           <label>Username</label>
           <input type='text' id='username' placeholder='E.g SabeloX'/>
           <i class='fa fa-check-circle'></i>
           <i class='fa fa-exclamation-circle'></i>
           <small>Error message</small>
         </div>
-        <div class='form-control error'>
+        <div class='form-control'>
           <label>Email</label>
           <input type='email' id='email' placeholder='E.g sabelo@email.com'/>
           <i class='fa fa-check-circle'></i>
@@ -37,7 +37,7 @@
         </div>
         <div class='form-control'>
           <label>Confirm password</label>
-          <input type='password' id='password'/>
+          <input type='password' id='c-password'/>
           <i class='fa fa-check-circle'></i>
           <i class='fa fa-exclamation-circle'></i>
           <small>Error message</small>
@@ -45,5 +45,6 @@
         <button type="submit">Submit</button>
       </form>
     </div>
+    <script src='index.js'></script>
   </body>
 </html>
